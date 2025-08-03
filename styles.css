@@ -1,0 +1,118 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+}
+
+img {
+    width: 100px;
+}
+
+.activities-img {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+}
+
+.container {
+    max-width: 1200px;
+    width: 80%;
+    margin: 0 auto;
+    position: relative;
+}
+
+/* HERO SECTION */
+
+#hero {
+    height: 350px;
+    background-image: url(./images/helenka.jpg);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+}
+
+.hero-title,
+.hero-subtitle {
+    padding: 10px 5px;
+    border-radius: 15px;
+}
+
+.hero-title {
+    width: 350px;
+    background: #1D3557;
+}
+
+.hero-subtitle {
+    width: 550px;
+    background: #457B9D;
+}
+
+/* ACTIVITIES SECTION */
+
+#activities {
+    background: #F1FAEE;
+    color: #1D3557;
+}
+
+.activities-title {
+    padding: 50px 0;
+    margin-top: 0;
+    font-size: 30px;
+    width: 500px;
+    margin: 0 auto;
+}
+
+.activities-list {
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-bottom: 20px;
+}
+
+.activities-container {
+    width: 200px;
+    text-align: center;
+}
+
+/* GUIDE SECTION */
+
+#guide {
+    color: #1D3557;
+}
+
+.guide-container {
+    display: flex;
+    margin: 60px auto;
+    width: 500px;
+    background: #A8DADC;
+    border-radius: 15px;
+    padding: 20px;
+    align-items: center;
+    gap: 20px;
+    box-shadow: 0 10px #1D3557;
+}
+
+.guide-title {
+    font-size: 28px;
+}
+
+.guide-desc {
+    font-style: italic;
+}
+
+.guide-img {
+    width: 100%;
+    border-radius: 15px;
+}
